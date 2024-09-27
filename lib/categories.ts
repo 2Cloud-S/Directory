@@ -1,0 +1,56 @@
+import { 
+  Book, 
+  Cpu, 
+  Video, 
+  Music, 
+  Shield, 
+  Code, 
+  Globe, 
+  Brain, 
+  Camera, 
+  Microscope, 
+  Robot, 
+  Zap, 
+  MessageSquare, 
+  Image, 
+  Headphones, 
+  Lock, 
+  Search, 
+  Database, 
+  Cloud, 
+  Smartphone
+} from 'lucide-react'
+
+export const categories = [
+  { id: 'nlp', name: 'Natural Language Processing', iconName: 'MessageSquare', description: 'Tools for understanding and generating human language.' },
+  { id: 'cv', name: 'Computer Vision', iconName: 'Camera', description: 'AI solutions for image and video analysis.' },
+  { id: 'ml', name: 'Machine Learning', iconName: 'Brain', description: 'Platforms and libraries for building ML models.' },
+  { id: 'speech', name: 'Speech Recognition', iconName: 'Headphones', description: 'Convert spoken language into text.' },
+  { id: 'security', name: 'Cybersecurity', iconName: 'Shield', description: 'AI-powered security and threat detection.' },
+  { id: 'dev', name: 'Developer Tools', iconName: 'Code', description: 'AI assistants and code generation tools.' },
+  { id: 'generative', name: 'Generative AI', iconName: 'Zap', description: 'Create images, text, and more with AI.' },
+  { id: 'translation', name: 'Language Translation', iconName: 'Globe', description: 'Break language barriers with AI translation.' },
+]
+
+export const iconComponents = {
+  Book,
+  Cpu,
+  Video,
+  Music,
+  Shield,
+  Code,
+  Globe,
+  Brain,
+  Camera,
+  Microscope,
+  Robot,
+  Zap,
+  MessageSquare,
+  Image,
+  Headphones,
+  Lock,
+  Search,
+  Database,
+  Cloud,
+  Smartphone
+}
